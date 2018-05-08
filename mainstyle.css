@@ -7,7 +7,11 @@
 }
 .top-bar{
 	min-height: 3rem;
-	background: #3575d3;	
+	background: #3575d3;
+	position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;	
 }
 .banner{
 	height: 25rem;
@@ -100,7 +104,7 @@ li a, .dropbtn {
 
 li a:hover, .drpdown:hover .dropbtn {
     background-color: #1459b5;
-    color: ffffff;
+    color: #ffffff;
 }
 
 li.drpdown {
@@ -158,4 +162,14 @@ li.drpdown {
     height: 200px;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+.logo{
+	height: 3rem;
+	width: 20rem;
+	background: #ffffff;
+	color: #3575d3;
+
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
